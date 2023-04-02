@@ -1,0 +1,16 @@
+chemin:
+  dette:
+    inventaire: "C:/Users/Liege/Downloads/Inventaire"
+
+spring:
+  output:
+    ansi:
+      enabled: ALWAYS
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/microservicesdette
+    username: root
+    password: mysql
+  jpa:
+    show-sql: true
+    hibernate.ddl-auto: update
